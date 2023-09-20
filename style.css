@@ -1,0 +1,13 @@
+body {
+  background: yellow;
+  margin: 20;
+  justify-content: none;
+  align-items: none;
+}
+
+img {
+  border-radius: 50px;
+  border: 2px solid #000; /* Adjust the color and width as needed */
+  display: block; /* To center the image */
+  margin: left; /* To center the image */
+}
