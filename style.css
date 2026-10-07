@@ -1,13 +1,16 @@
 body {
   background: yellow;
-  margin: 20;
-  justify-content: none;
-  align-items: none;
+  margin: 20px;
 }
 
 img {
   border-radius: 50px;
-  border: 2px solid #000; /* Adjust the color and width as needed */
-  display: block; /* To center the image */
-  margin: left; /* To center the image */
+  border: 2px solid #000;
+  display: block;
+  margin: 0 auto; /* center the image */
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
 }
