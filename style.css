@@ -1,16 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background: yellow;
   margin: 20px;
-}
-
-img {
-  border-radius: 50px;
-  border: 2px solid #000;
-  display: block;
-  margin: 0 auto; /* center the image */
-  cursor: pointer;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 h1 {
   text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* center the image */
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+  border: 2px solid #000;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
