@@ -1,3 +1,4 @@
+entrypoint = "index.html"
 hidden=[".config"]
 
 # hosting is currently hardcoded for this language
