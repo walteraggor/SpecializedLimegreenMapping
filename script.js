@@ -1,5 +1,5 @@
 const FIRST_IMAGE = 'https://clipart.info/images/ccovers/1522453412Logo-Snapchat-Png.png';
-const SECOND_IMAGE = 'https://th.bing.com/th/id/R.8d155b2e1f87f6104d939cfd4b62e9e7?rik=2VNWuTQje8i89Q&pid=ImgRaw&r=0';
+const SECOND_IMAGE = 'second.svg'; // local file; replace with your own image if you like
 
 let imageState = 0;
 
