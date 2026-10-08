@@ -10,6 +10,7 @@ A small static web page. It shows an image on a yellow background; clicking the 
 | `script.js` | Click handler that toggles the image (and audio) |
 | `style.css` | Page styling |
 | `second.svg` | The second image (a placeholder you can replace) |
+| `sound.wav` | A short chime that plays with the second image |
 | `.replit`, `replit.nix` | Replit configuration |
 
 ## Running it
@@ -23,4 +24,4 @@ There is no build step.
 
 - **Second image:** replace `second.svg`, or change `SECOND_IMAGE` at the top of `script.js` to point at your own file.
 - **First image:** it is currently loaded from an external site. Save your own copy in the repo and change `FIRST_IMAGE` in `script.js` and the `src` of `#myImage` in `index.html`.
-- **Audio:** add a sound file to the repo and set the `src` attribute on `<audio id="myAudio">` in `index.html` (for example `src="sound.mp3"`). With no `src`, the page works without sound.
+- **Audio:** replace `sound.wav` with your own sound file, or change the `src` attribute on `<audio id="myAudio">` in `index.html`. Remove the `src` to run the page without sound.
